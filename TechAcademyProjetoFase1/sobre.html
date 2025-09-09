@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <title>Jogo de Jogar - Sobre</title>
+    <link rel="shortcut icon" href="imagens/joystick.png">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" title="Home">
+            <img src="imagens/joystick.png" class="header-img" alt="Um Jogo" title="Um Jogo">
+        </a>
+        <a href="javascript:mostrarmenu()" class="menu">
+            <i class="fas fa-bars"></i>
+        </a>
+        <nav> 
+            <ul>
+                <li><a href="index.html" title="Home">
+                    Home
+                </a></li>
+                <li>
+                    <a href="sobre.html" title="Sobre">
+                        Sobre
+                    </a>
+                </li>
+                <li>
+                    <a href="contato.html" title="Contato">
+                        Contato
+                    </a>
+                </li>
+                <li>
+                    <a href="jogar.html" class="btnHeader" title="Jogar">
+                        Jogar
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <script>
+            function mostrarmenu() {
+                document.querySelector("header nav").classList.toggle("mostrar");
+            }
+        </script>
+    </header>
+    <main>
+        <section class="sobre">
+            <h1>Sobre o Jogo</h1>
+            <div class="video-container">
+                <iframe 
+                    src="https://www.youtube.com/embed/_Vw-oH9qok0" title="Vídeo do Jogo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+            </div>
+            <div class="sobre-container">
+                <p>
+                    É um jogo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quidem, cum mollitia velit quo nostrum eum, iste temporibus maiores ipsum cupiditate sit earum officia. Laudantium modi vitae autem provident perferendis ad, iste itaque officia. Vitae, est animi et, enim quos accusantium inventore, rerum iste praesentium voluptas voluptate impedit. Quibusdam exercitationem quas placeat aperiam. Quaerat ipsa sunt animi neque aperiam officia veritatis perspiciatis maiores, sit sed facilis consectetur consequatur sequi beatae error saepe! Rem, reiciendis eaque debitis minus accusantium, dolor nobis, deleniti nostrum quibusdam labore accusamus necessitatibus sed natus. Tenetur laboriosam facere modi aut. Ipsam repellendus alias ex animi quas molestias.
+                </p>
+                <p>
+                    É definitivamente um dos jogos ja feitos (que ainda não foi feito enquanto isso é escrito, então isso é mentira), ele existe (ainda não existe), e é jogável (não é jogável), a jogabilidade é uma que é possível jogar (não vou mais repetir), eu vou parar de escrever porque a criatividade me abandonou, igual o meu pai.
+                </p>
+                <a href="jogar.html" class="btn">Jogar</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Todos os direitos reservados</p>
+            <p>
+                <a href="https://www.facebook.com" title="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.x.com" title="Twitter"><i class="fab fa-twitter"></i></a>
+            </p>
+    </footer>
+</body>
+
+</html>

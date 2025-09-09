@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <title>Jogo de Jogar - Contato</title>
+    <link rel="shortcut icon" href="imagens/joystick.png">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" title="Home">
+            <img src="imagens/joystick.png" class="header-img" alt="Um Jogo" title="Um Jogo">
+        </a>
+        <a href="javascript:mostrarmenu()" class="menu">
+            <i class="fas fa-bars"></i>
+        </a>
+        <nav> 
+            <ul>
+                <li><a href="index.html" title="Home">
+                    Home
+                </a></li>
+                <li>
+                    <a href="sobre.html" title="Sobre">
+                        Sobre
+                    </a>
+                </li>
+                <li>
+                    <a href="contato.html" title="Contato">
+                        Contato
+                    </a>
+                </li>
+                <li>
+                    <a href="jogar.html" class="btnHeader" title="Jogar">
+                        Jogar
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <script>
+            function mostrarmenu() {
+                document.querySelector("header nav").classList.toggle("mostrar");
+            }
+        </script>
+    </header>
+    <main>
+        <h1>Entre em Contato</h1>
+        <div class="formulario">
+            <form name="form-cadastro" action="" method="post" enctype="multipart/form-data" class="formulario-container">
+                <label for="nome">Digite seu nome:</label>
+                <input type="text" class="formulario" name="nome" id="nome" size="50" maslength="40" placeholder="Nome Completo" autocomplete="off" required>
+                <br>
+                <label for="email">Digite seu e-mail:</label>
+                <input type="email" name="email" id="email" maxlength="50" placeholder="Digite um e-mail válido" autocomplete="off" required class="formulario" inputmode="email">
+                <br>
+                <label for="mensagem">Escreva sua mensagem</label>
+                <br>
+                <textarea name="mensagem" id="mensagem" required placeholder="Digite uma mensagem" class="formulario" rows="15"></textarea>
+                <br>
+                <button type="submit" class="btn-submit">
+                    Enviar Dados
+                </button>
+                <button type="reset" class="btn-reset">
+                    Redefinir
+                </button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>Todos os direitos reservados</p>
+            <p>
+                <a href="https://www.facebook.com" title="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.x.com" title="Twitter"><i class="fab fa-twitter"></i></a>
+            </p>
+    </footer>
+</body>
+
+</html>
