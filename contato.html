@@ -6,6 +6,8 @@
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/all.min.css">
+    
+    <script type="text/javascript" src="js/script.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,11 +47,6 @@
                 </li>
             </ul>
         </nav>
-        <script>
-            function mostrarmenu() {
-                document.querySelector("header nav").classList.toggle("mostrar");
-            }
-        </script>
     </header>
     <main>
         <h1>Entre em Contato</h1>
@@ -65,7 +62,7 @@
                 <br>
                 <textarea name="mensagem" id="mensagem" required placeholder="Digite uma mensagem" class="formulario" rows="15"></textarea>
                 <br>
-                <button type="submit" class="btn-submit">
+                <button type="submit" class="btn-submit" onclick="validar()">
                     Enviar Dados
                 </button>
                 <button type="reset" class="btn-reset">

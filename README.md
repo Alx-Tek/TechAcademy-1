@@ -13,3 +13,6 @@ Ajuste do repositório para funcionamento do site, Removendo uma pasta e trazend
 
 ## Remoção da pasta compactada
 Remoção da pasta compactada TADS-1.rar
+
+## Adição de validação de formulário através do javascript
+Adição de validação de formulario através do javascript, códigos em javascript movido para arquivo externo.
