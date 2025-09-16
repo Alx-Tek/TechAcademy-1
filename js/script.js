@@ -8,17 +8,17 @@ function validar() {
     var mensagem = document.getElementById("mensagem");
 
     if (nome.value == ""){
-        alert("Nome é obrigatório");
+        alert("Nome é obrigatório!");
         nome.focus();
     }
 
     if (email.value == ""){
-        alert("Email é obrigatório");
+        alert("Email é obrigatório!");
         email.focus();
     }
 
     if (mensagem.value == ""){
-        alert("Mensagem é obrigatória");
+        alert("Mensagem é obrigatória!");
         mensagem.focus()
     }
 }
