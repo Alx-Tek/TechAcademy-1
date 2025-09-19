@@ -14,13 +14,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     
     <title>Jogo de Jogar - Contato</title>
-    <link rel="shortcut icon" href="imagens/joystick.png">
+    <link rel="shortcut icon" href="imagens/iconShortcut.png">
 </head>
 
 <body>
     <header>
         <a href="index.html" title="Home">
-            <img src="imagens/joystick.png" class="header-img" alt="Um Jogo" title="Um Jogo">
+            <img src="imagens/iconHome.png" class="header-img" alt="Um Jogo" title="Um Jogo">
         </a>
         <a href="javascript:mostrarmenu()" class="menu">
             <i class="fas fa-bars"></i>
@@ -49,27 +49,29 @@
         </nav>
     </header>
     <main>
-        <h1>Entre em Contato</h1>
-        <div class="formulario">
-            <form name="form-cadastro" action="" method="post" enctype="multipart/form-data" class="formulario-container">
-                <label for="nome">Digite seu nome:</label>
-                <input type="text" class="formulario" name="nome" id="nome" size="50" maslength="40" placeholder="Nome Completo" autocomplete="off" required>
-                <br>
-                <label for="email">Digite seu e-mail:</label>
-                <input type="email" name="email" id="email" maxlength="50" placeholder="Digite um e-mail válido" autocomplete="off" required class="formulario" inputmode="email">
-                <br>
-                <label for="mensagem">Escreva sua mensagem</label>
-                <br>
-                <textarea name="mensagem" id="mensagem" required placeholder="Digite uma mensagem" class="formulario" rows="15"></textarea>
-                <br>
-                <button type="submit" class="btn-submit" onclick="validar()">
-                    Enviar Dados
-                </button>
-                <button type="reset" class="btn-reset">
-                    Redefinir
-                </button>
-            </form>
-        </div>
+        <section class="container">
+            <h1>Entre em Contato</h1>
+            <div class="formulario">
+                <form name="form-cadastro" action="" method="post" enctype="multipart/form-data" class="formulario-container">
+                    <label for="nome">Digite seu nome:</label>
+                    <input type="text" class="formulario" name="nome" id="nome" size="50" maslength="40" placeholder="Nome Completo" autocomplete="off" required>
+                    <br>
+                    <label for="email">Digite seu e-mail:</label>
+                    <input type="email" name="email" id="email" maxlength="50" placeholder="Digite um e-mail válido" autocomplete="off" required class="formulario" inputmode="email">
+                    <br>
+                    <label for="mensagem">Escreva sua mensagem</label>
+                    <br>
+                    <textarea name="mensagem" id="mensagem" required placeholder="Digite uma mensagem" class="formulario" rows="15"></textarea>
+                    <br>
+                    <button type="submit" class="btn-submit" onclick="validar()">
+                        Enviar Dados
+                    </button>
+                    <button type="reset" class="btn-reset">
+                        Redefinir
+                    </button>
+                </form>
+            </div>
+        </section>
     </main>
     <footer>
         <p>Todos os direitos reservados</p>
