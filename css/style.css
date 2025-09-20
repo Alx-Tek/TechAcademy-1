@@ -123,6 +123,14 @@ h1 {
     border-radius: 5px;
 }
 
+.game-container{
+    width: 100%;
+    max-width: 1500px;
+    height: 100%;
+    border-radius: 5px;
+    margin: 30px 0 30px 0;
+}
+
 label {
     font-weight: bold;
 }
@@ -154,6 +162,12 @@ label {
     border-radius: 100px;
     color: white;
     transition: all .5s;
+}
+
+.grid .btn {
+    padding-left: 30px;
+    margin-left: 30px;
+    display: inline-block;
 }
 
 .btn:hover {
