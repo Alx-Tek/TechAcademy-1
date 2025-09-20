@@ -7,19 +7,20 @@ function validar() {
     var email = document.getElementById("email");
     var mensagem = document.getElementById("mensagem");
 
-    if (nome.value == ""){
-        alert("Nome é obrigatório!");
-        nome.focus();
+    if (nome.value == "" || email.value == "" || mensagem.value == "") {
+        alert("Preencha todos os campos obrigatórios");
+
+        if (nome.value === "") {
+            nome.focus();
+        } else if (email.value === "") {
+            email.focus();
+        } else {
+            mensagem.focus();
+        }
+        
+        return;
     }
 
-    if (email.value == ""){
-        alert("Email é obrigatório!");
-        email.focus();
-    }
-
-    if (mensagem.value == ""){
-        alert("Mensagem é obrigatória!");
-        mensagem.focus()
-    }
+    alert("Dados enviados com sucesso!");
 }
 
