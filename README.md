@@ -1,18 +1,14 @@
-# TechAcademy-1
-Repositório para o projeto Tech Academy 1 - Desenvolvimento Web
+# Tech Academy 1 - Documentação
+ Space Defenders é um jogo de estilo Shoot 'em up, inspirado pelo clássico do Atari, Space Invaders. No futuro distante do ano de 2369, tome controle de Silas Kow, um ilustre e destemido, porém descontrolado comandante da D.E.F. (Divisão de Escudo Frotista), a bordo da espaçonave ALX Fruta. Silas decide sozinho iniciar uma missão de extermínio dos alienígenas Midiclorianos, indo contra todos os protocolos da D.E.F, contrariando as ordens de seus superiores, afinal, de acordo com Silas, a melhor defesa é o ataque.
 
-## Commit do TADS-1.rar
-Commit do arquivo do TADS-1.rar, contendo a primeira versão do site do TechAcademy.
+## Controle
+Os controles do jogo são as setas para movimento da naves em duas dimensões e o mouse para atirar.
 
-## Commit dos Arquivos não compactados da pasta TADS-1.rar
-Commit dos Arquivos não compactados da pasta TADS-1.rar, contendo algumas alterações, como o documento jogar.html.
-Projeto ainda incompleto.
+## História e Temática
+O jogo acontece no século XIV, no espaço sideral, em 2369, o personagem principal e Silas Kow a bordo da nave ALX Fruta, pertencente a D.E.F. (Divisão de Escudo Frotista). Silas decide sozinho atacar os alienígenas Midiclorianos, contra as ordens de seus superiores da Divisão. Os Midiclorianos são alienígenas pacíficos.
 
-## Commit para ajuste do repositório
-Ajuste do repositório para funcionamento do site, Removendo uma pasta e trazendo os conteúdos contidos nela para o mesmo endereço da pasta .git.
+## Mecânica
+O jogo contém mecânicas de Shoot ‘em up clássicas, em 2D, onde inimigos aparecem do topo e vão em direção a parte inferior da tela. 
+O jogo tem um sistema de vidas, o jogador começa com uma vida ao iniciar, onde a contagem fica localizada na parte inferior esquerda. O jogador pode acumular mais vidas através de um power up coletável vermelho e pode ter no máximo 3 vidas. 
+O jogador pode ter um escudo ao coletar um power up azul, o escudo dura 12 segundos e destrói todos os inimigos que entrarem em contato, o escudo também aparece por 3 segundos ao ser destruído possuindo pelo menos 2 vidas.
 
-## Remoção da pasta compactada
-Remoção da pasta compactada TADS-1.rar
-
-## Adição de validação de formulário através do javascript
-Adição de validação de formulario através do javascript, códigos em javascript movido para arquivo externo.
