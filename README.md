@@ -2,7 +2,7 @@
  Space Defenders é um jogo de estilo Shoot 'em up, inspirado pelo clássico do Atari, Space Invaders. No futuro distante do ano de 2369, tome controle de Silas Kow, um ilustre e destemido, porém descontrolado comandante da D.E.F. (Divisão de Escudo Frotista), a bordo da espaçonave ALX Fruta. Silas decide sozinho iniciar uma missão de extermínio dos alienígenas Midiclorianos, indo contra todos os protocolos da D.E.F, contrariando as ordens de seus superiores, afinal, de acordo com Silas, a melhor defesa é o ataque.
 
 ## Controle
-Os controles do jogo são as setas para movimento da naves em duas dimensões e o mouse para atirar.
+No jogo, as teclas WASD são usadas para movimento da nave em duas dimensões e o mouse para atirar.
 
 ## História e Temática
 O jogo acontece no século XIV, no espaço sideral, em 2369, o personagem principal e Silas Kow a bordo da nave ALX Fruta, pertencente a D.E.F. (Divisão de Escudo Frotista). Silas decide sozinho atacar os alienígenas Midiclorianos, contra as ordens de seus superiores da Divisão. Os Midiclorianos são alienígenas pacíficos.
