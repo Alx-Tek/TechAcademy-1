@@ -12,3 +12,6 @@ O jogo contém mecânicas de Shoot ‘em up clássicas, em 2D, onde inimigos apa
 O jogo tem um sistema de vidas, o jogador começa com uma vida ao iniciar, onde a contagem fica localizada na parte inferior esquerda. O jogador pode acumular mais vidas através de um power up coletável vermelho e pode ter no máximo 3 vidas. 
 O jogador pode ter um escudo ao coletar um power up azul, o escudo dura 12 segundos e destrói todos os inimigos que entrarem em contato, o escudo também aparece por 3 segundos ao ser destruído possuindo pelo menos 2 vidas.
 
+## Link do site do jogo
+https://alx-tek.github.io/TechAcademy-1/
+
